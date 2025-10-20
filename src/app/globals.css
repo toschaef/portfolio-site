@@ -1,11 +1,72 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #09090b;          /* zinc-950 */
+  --color-foreground: #fafafa;          /* zinc-50 */
+  
+  --color-border: #27272a;              /* zinc-800 */
+  --color-muted: #18181b;                /* zinc-900 */
+  --color-muted-foreground: #a1a1aa;    /* zinc-400 */
+
+  --color-primary: #7c2cf4;            /* violet-500 */
+  --color-primary-foreground: #fafafa;   /* zinc-50 */
+
+  --color-secondary: #3f3f46;            /* zinc-700 */
+  --color-secondary-foreground: #fafafa; /* zinc-50 */
+}
+
 body {
-  background-color: #121212;
-  color: #e5e5e5;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: 'Inter', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #a78bfa; /* violet-400 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--foreground);
+}
+
+p {
+  color: var(--muted-foreground);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--muted-foreground);
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--background);
 }
 
 
-a {
-  text-decoration: none;
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0s !important;
+    transition-duration: 0s !important;
+  }
 }

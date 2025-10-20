@@ -3,30 +3,115 @@
     "id": 1,
     "slug": "portfolio-site",
     "name": "Personal Portfolio",
+    "type": "Frontend",
+    "role": "Solo Project",
+    "status": "Completed",
     "date": "2025-10-10",
     "summary": "A minimalist portfolio with a timeline view of my work.",
-    "description": "This project showcases my development journey and projects in a vertical timeline. Built with Next.js, TailwindCSS, and Framer Motion.",
+    "description": "A sleek developer portfolio built with Next.js, TailwindCSS, and Framer Motion. It features a scrollable timeline of projects, motion-enhanced transitions, and a responsive design system.",
+    "features": [
+      "Dynamic project data from JSON",
+      "Animated timeline with Framer Motion",
+      "Fully responsive layout"
+    ],
     "tech": ["nextjs2", "typescript", "tailwindcss", "Framer Motion", "eslint"],
-    "link": "https://example.com/portfolio"
+    "tags": ["personal", "frontend", "nextjs"],
+    "link": "https://example.com/portfolio",
+    "repo": "https://github.com/thomas/portfolio",
+    "images": [ 
+      { "src": "/portdash.png", "alt": "Portfolio Dashboard Screenshot" }
+    ]
   },
   {
     "id": 2,
     "slug": "finance-app",
     "name": "Personal Finance Platform",
+    "type": "Full-stack Web App",
+    "role": "Solo Project",
+    "status": "Completed",
     "date": "2025-09-01",
-    "summary": "A simple finance app for tracking expenses.",
-    "description": "Built a full-stack finance tracker with user authentication, data visualization, and budget management.",
-    "tech": ["js", "react", "reactrouter", "tailwindcss", "expressjs", "mysql", "redis", "docker", "json", "JSON Web Token"],
-    "link": "https://example.com/finance"
+    "summary": "A full-stack personal finance tracker with user auth, dashboards, and visualizations.",
+    "description": "Developed a personal finance app that allows users to track expenses, visualize spending patterns, and manage budgets. It features authentication, secure REST APIs, and Redis caching.",
+    "features": [
+      "Authentication via JWT",
+      "Interactive expense charts",
+      "MySQL + Redis backend",
+      "Dockerized environment"
+    ],
+    "tech": ["javascript", "react", "reactrouter", "tailwindcss", "expressjs", "mysql", "redis", "docker", "json", "jsonwebtoken"],
+    "tags": ["fullstack", "finance", "utility"],
+    "link": "https://example.com/finance",
+    "repo": "https://github.com/thomas/finance-app",
+    "images": [
+      { "src": "/financedash.png", "alt": "Finance App Dashboard Screenshot" }
+    ]
   },
   {
     "id": 3,
     "slug": "autocard",
     "name": "AutoCard",
+    "type": "Full-stack Game Tool",
+    "role": "Solo Project",
+    "status": "In Development",
     "date": "2025-10-01",
-    "summary": "Kahoot style game/study tool.",
-    "description": "Built a full-stack game/study tool with user authentication, real-time collaboration, and interactive quizzes.",
+    "summary": "A Kahoot-style game/study tool with live multiplayer and user auth.",
+    "description": "Built an interactive quiz platform inspired by Kahoot, with Next.js and Node. Features real-time synchronization, custom decks, and live sessions powered by AWS and WebSockets.",
+    "features": [
+      "Real-time multiplayer with Socket.io",
+      "User authentication and profiles",
+      "Deck management and study tracking"
+    ],
     "tech": ["typescript", "nextjs2", "expressjs", "mongodb", "mongoose", "aws", "gemini", "tailwindcss", "json", "eslint"],
-    "link": "https://example.com/autocard"
+    "tags": ["education", "game", "webapp"],
+    "link": "https://example.com/autocard",
+    "repo": "https://github.com/thomas/autocard",
+    "images": [ 
+      { "src": "/autocard.png", "alt": "AutoCard Quiz Platform Screenshot" }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "unl-coding-club",
+    "name": "UNL Coding Club Website",
+    "type": "Frontend/Utility",
+    "role": "Team Contributor",
+    "status": "Completed",
+    "date": "2025-05-15",
+    "summary": "Official web presence for the UNL Coding Club, featuring a custom events calendar.",
+    "description": "A collaborative project for the UNL Coding Club's main website. My primary contributions included developing the responsive site header and implementing the interactive calendar component using **FullCalendar** to manage and display club events.",
+    "features": [
+      "Interactive event calendar display",
+      "Responsive, modernized site header",
+      "Team collaboration workflow"
+    ],
+    "tech": ["nextjs2", "typescript", "tailwindcss", "FullCalendar", "eslint"],
+    "tags": ["collaboration", "utility", "education"],
+    "link": "https://example.com/unl-coding-club",
+    "repo": "https://github.com/unl-coding-club/website",
+    "images": [
+      { "src": "/unlclub.png", "alt": "UNL Coding Club Website Screenshot" }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "esp32-snake-game",
+    "name": "ESP32 Snake Game",
+    "type": "Embedded/Hardware",
+    "role": "Solo Project",
+    "status": "Completed",
+    "date": "2024-03-20",
+    "summary": "Classic Snake game implemented on an ESP32 microcontroller using C++.",
+    "description": "A hardware-based project bringing the classic Snake game to life on an ESP32 development board. The code was written in C++ using the Arduino IDE, focusing on direct control of LEDs and hardware-level game loop optimization.",
+    "features": [
+      "Hardware-level game loop",
+      "Control using physical buttons",
+      "Optimized for ESP32 constraints"
+    ],
+    "tech": ["c++", "arduino", "esp32", "embedded"],
+    "tags": ["hardware", "embedded", "c++"],
+    "repo": "https://github.com/thomas/esp32-snake",
+    "images": [
+      { "src": "/esp32snake.png", "alt": "ESP32 Snake Game running on hardware" }
+    ]
   }
 ]
