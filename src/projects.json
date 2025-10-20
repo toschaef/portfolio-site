@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "slug": "portfolio-site",
+    "name": "Personal Portfolio",
+    "date": "2025-10-10",
+    "summary": "A minimalist portfolio with a timeline view of my work.",
+    "description": "This project showcases my development journey and projects in a vertical timeline. Built with Next.js, TailwindCSS, and Framer Motion.",
+    "tech": ["nextjs2", "typescript", "tailwindcss", "Framer Motion", "eslint"],
+    "link": "https://example.com/portfolio"
+  },
+  {
+    "id": 2,
+    "slug": "finance-app",
+    "name": "Personal Finance Platform",
+    "date": "2025-09-01",
+    "summary": "A simple finance app for tracking expenses.",
+    "description": "Built a full-stack finance tracker with user authentication, data visualization, and budget management.",
+    "tech": ["js", "react", "reactrouter", "tailwindcss", "expressjs", "mysql", "redis", "docker", "json", "JSON Web Token"],
+    "link": "https://example.com/finance"
+  },
+  {
+    "id": 3,
+    "slug": "autocard",
+    "name": "AutoCard",
+    "date": "2025-10-01",
+    "summary": "Kahoot style game/study tool.",
+    "description": "Built a full-stack game/study tool with user authentication, real-time collaboration, and interactive quizzes.",
+    "tech": ["typescript", "nextjs2", "expressjs", "mongodb", "mongoose", "aws", "gemini", "tailwindcss", "json", "eslint"],
+    "link": "https://example.com/autocard"
+  }
+]
